@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ejemplo de Window en JavaScript</title>
+</head>
+<body>
+
+<button onclick="abrirVentana()">Abrir Ventana</button>
+
+<script>
+function abrirVentana() {
+    // Abre una nueva ventana con un mensaje
+    window.open('', '', 'width=400,height=200');
+    // Escribe un mensaje en la nueva ventana
+    window.document.write("<p>¡Hola! Esta es una ventana emergente.</p>");
+}
+</script>
+
+</body>
+</html>
